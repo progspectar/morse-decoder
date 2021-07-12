@@ -75,16 +75,3 @@ function decode(expr) {
 module.exports = {
   decode,
 };
-
-// function decodeMorse(morseCode) {
-
-//   return morseCode
-//     .split('   ')
-//     .map((a) =>
-//       a
-//         .split(' ')
-//         .map((b) => ref[b])
-//         .join('')
-//     )
-//     .join(' ');
-// }
